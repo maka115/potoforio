@@ -1,0 +1,72 @@
+#header {
+    #logo-N {
+	display: none;
+}
+    
+    position: relative;
+    #logo {
+	font-size: 36px;
+    padding-top: 10px;
+        color: #333;
+        margin-bottom: 40px;
+    
+}
+        #logo2 {
+	display: none;
+}
+  #nav-btn {
+	
+        width: 48px;
+        height: 48px;
+        background-color: #000;
+        position: absolute;
+        top:0;
+        right: 0;
+    }  
+
+}
+
+@media screen and (min-width:768px){
+    #header {
+        
+    
+   position: relative;
+
+        #logo {
+	display: none;
+}
+    #nav-btn{
+        display: none;
+    }
+}
+}
+@media screen and (min-width:1170px){
+   #header {
+	width: 30%;
+      height: 1000px;
+    float: left;
+       
+        #logo-N {
+	
+}
+    
+    position: relative;
+    #logo {
+	font-size: 36px;
+    padding-top: 10px;
+        color: #333;
+        margin-bottom: 40px;
+    
+}
+        #logo2 {
+	
+}
+  #nav-btn {
+	
+     display: none;
+    }    
+       
+       
+       
+} 
+}

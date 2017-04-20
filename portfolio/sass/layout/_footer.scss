@@ -1,0 +1,41 @@
+#footer {
+    
+    height: 96px;
+    background-color: #333;
+	#fnav {
+	display: none;
+}
+    p{
+        color: #fff;
+        line-height: 96px;
+        text-align: center;
+        font-size: 18px;
+    }
+}
+@media screen and (min-width:768px){
+    #footer {
+        clear: both;
+        padding-top: 40px;
+	font-size: 0;
+
+    #fnav {
+        text-align: center;
+	display: block;
+        ul{
+          
+        }
+        li{
+           
+            display: inline-block;
+            text-align: center;
+            margin-right: 20px;
+        }
+        a{
+            font-size: 18px;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+        }
+}
+}
+    }
